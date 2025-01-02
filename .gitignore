@@ -1,4 +1,8 @@
-# steps
+# demo
+
+*.pem
+**/.terraform
+.terraform.lock.hcl
 
 # Logs
 logs
