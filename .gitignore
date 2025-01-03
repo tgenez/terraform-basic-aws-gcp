@@ -1,5 +1,8 @@
 # demo
 
+*.tfstate
+*.tfstate.backup
+
 *.pem
 **/.terraform
 .terraform.lock.hcl
