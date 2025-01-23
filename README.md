@@ -14,7 +14,7 @@ Vous pouvez lancer localement en allant dans le dossier `docs` et lancer `npm i`
 
 ## Exercices
 
-Les exercies sont dans le dosser labs, il y a le dossier de l'exercice de type 0X-XXXX et la soludation dans le dossier 0X-XXXX-solution
+Les exercices sont dans le dosser labs, il y a le dossier de l'exercice de type 0X-XXXX et la solution dans le dossier 0X-XXXX-solution
 
 ## Remerciement
 
