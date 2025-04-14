@@ -14,7 +14,7 @@ module "network" {
 	vpc_main_public_subnets_cidr           = var.vpc_main_public_subnets_cidr
 	vpc_main_private_subnets_cidr          = var.vpc_main_private_subnets_cidr
 	availability_zones                     = local.availability_zones
-	ips_sg_ssh 							   = var.ips_sg_ssh
+	ips_sg_ssh 							               = var.ips_sg_ssh
 }
 
 
