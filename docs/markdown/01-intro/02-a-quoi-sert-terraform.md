@@ -8,7 +8,6 @@
 * Déployer rapidement des environnements identiques (dev, staging, prod)
 * Partager et réutiliser des configurations d'infrastructure
 * Gérer les changements de manière contrôlée.
-<!-- .element: class="list-fragment" -->
 
 Notes:
 - Note
@@ -31,4 +30,3 @@ Notes:
 * Gestion des ressources réseau
 * Configuration des services cloud
 * Permet de tout supprimer et recréer dans son environnement au besoin
-<!-- .element: class="list-fragment" -->

@@ -6,11 +6,8 @@
 * **Compute Engine (VM)** : Le service de machines virtuelles de Google Cloud qui permet de créer et d'exécuter des instances virtuelles avec des performances personnalisables et une haute disponibilité.
 <!-- .element: class="list-fragment" -->
 
-
 Notes:
 - 
-
-##==##
 
 ##==##
 

@@ -1,6 +1,7 @@
 ## Installation terraform cli
 
-Plusieurs façon de l'installer, il suffit de suivre la documentation.
+* Il faut installer le client terraform pour pouvoir lancer du terraform.
+* Il suffit de suivre la documentation terraform pour son système
 
 [terraform install](https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli)
 <!-- .element: class="credits" -->
@@ -13,7 +14,6 @@ Plusieurs façon de l'installer, il suffit de suivre la documentation.
 * Télécharge les plugins des fournisseurs (providers) requis
 * Configure le backend pour le stockage de l'état
 * Prépare le répertoire de travail pour son utilisation.
-<!-- .element: class="list-fragment" -->
 
 ##==##
 
@@ -25,7 +25,6 @@ Plusieurs façon de l'installer, il suffit de suivre la documentation.
   * Ressources à modifier (~)
   * Ressources à supprimer (-)
 * N'effectue aucune modification réelle sur l'infrastructure
-<!-- .element: class="list-fragment" -->
 
 ##==##
 
@@ -35,4 +34,12 @@ Plusieurs façon de l'installer, il suffit de suivre la documentation.
 * Demande une confirmation (sauf si utilisé avec -auto-approve)
 * Applique les modifications planifiées sur l'infrastructure
 * Met à jour le fichier d'état (state file)
-<!-- .element: class="list-fragment" -->
+
+##==##
+
+## command terraform state
+
+* Permet de parcourir le state et son état pour le modifier au besoin
+* **terraform state list** - Liste toutes les ressources
+* **terraform state show** - Affiche les détails d'une ressource
+* **terraform state rm** - Supprime une ressource du state

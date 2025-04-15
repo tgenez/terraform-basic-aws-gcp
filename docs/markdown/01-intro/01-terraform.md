@@ -7,7 +7,6 @@
 * Automatise le déploiement et la gestion des ressources cloud
 * Permet de versionner son infrastructure comme du code
 * Offre une approche idempotente (même résultat peu importe le nombre d'exécutions).
-<!-- .element: class="list-fragment" -->
 
 [site de terraform](https://www.terraform.io/)
 <!-- .element: class="credits" -->

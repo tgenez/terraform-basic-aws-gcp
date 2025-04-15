@@ -1,12 +1,25 @@
-## Terraform et son state
 
-* Garde une trace de l'infrastructure déployée par Terraform
-* Permet de faire le mapping entre les ressources réelles et la configuration
-* Permet à Terraform de détecter les différences entre l'infrastructure souhaitée et l'état actuel
-* Par défaut stocké en local **terraform.tfstate**
-<!-- .element: class="list-fragment" -->
+## Qu'est-ce que le Terraform State?
 
-Notes:
-- il est recommandé de le stocker à distance (S3, Azure Storage, etc.) pour le travail en équipe et la sécurité
+* Fichier JSON qui stocke l'état actuel de l'infrastructure gérée
+* Permet à Terraform de suivre les ressources qu'il gère
+* Généralement stocké dans un fichier `terraform.tfstate`
+* Contient les métadonnées, mappings et attributs de chaque ressource
 
+##==##
+
+## Importance du State
+
+* Permet à Terraform de déterminer quelles modifications apporter
+* Établit la correspondance entre les ressources déclarées et les ressources réelles
+* Stocke les dépendances entre les ressources
+* Mémorise les attributs pour les utiliser dans d'autres ressources
+
+##==##
+
+## Gestion du State
+
+* **Local**: Stocké par défaut dans le répertoire de travail
+* **Remote**: Peut être stocké dans un backend distant (S3, Azure Blob, GCS, etc.)
+* **Verrouillage**: Empêche les modifications simultanées (crucial en équipe)
 

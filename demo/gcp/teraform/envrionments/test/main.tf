@@ -1,8 +1,3 @@
-# # terraform par module
-locals {
-  list_zone = ["${var.gcp_region}-a", "${var.gcp_region}-b"]
-}
-
 module "network" {
 	source                                 = "../../modules/03_network"
 	environment                            = var.environment
